@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .hero {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.photoOne {
+  height: 300px;
+  width: auto;
+  padding: 50px;
+}
+
+p {
+  width: 400px;
+  word-break: break-all;
+  white-space: normal;
+}
