@@ -152,3 +152,30 @@ button {
   justify-content: flex-end;
   align-items: flex-end;
 }
+
+.signUp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #E5E7EB;
+  background-color: #3882F6;
+  margin: 50px 100px 50px 100px;
+  
+  border-radius: 4px;
+}
+
+.call {
+ margin-bottom: 0; 
+}
+
+.signUpP {
+  font-size: 10px;
+  font-weight: lighter;
+  margin-top: 0;
+}
+
+.signUpBtn {
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+}
