@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  overflow: hidden;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -178,4 +177,14 @@ button {
 .signUpBtn {
   border: 1px solid #E5E7EB;
   border-radius: 4px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
 }
